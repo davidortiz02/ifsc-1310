@@ -1,0 +1,137 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.primary h1 a{
+    display: block;
+    margin: 0 auto;
+    background-image: url(SpaceX-Logo.png);
+}
+
+header.primary{
+    text-align: center;
+    background-image: url(assets/img/background.jpg); /*broken, don't know why it's not working*/
+    background-position: 100px 0;
+    background-color: #c0c0c0;
+    padding: 5rem 2rem;
+    position: relative;
+}
+
+header h2{
+    font-size: 2.1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul a{
+   text-decoration: none;
+   color: #6D80FC;
+   background-color: #000000;
+   margin: auto;
+   padding: 15px;
+   border-radius: 25px;
+}
+
+
+/*index*/
+#articles{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 0 0 4em 0;
+}
+
+#content{
+    width: 75vw;
+    margin: auto;
+    max-width: 900px;
+    text-align: left;
+    padding: 20px;
+}
+
+#content h2{
+    text-align: center;
+}
+
+#articles h1{
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+h2{
+    
+    color: #000000;
+}
+
+article.post{
+    width: 30%;
+    padding: 10px;
+    transition: 0.6s;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #6D80FC;
+}
+
+.post p{
+    font-size: 1.2rem;
+}
+
+.post figcaption{
+    font-size: 1.2rem;
+}
+
+#articles img{
+    max-height: 75%;
+    max-width: 75%;
+}
+/*faq*/
+.question{
+    text-align: left;
+    color: #6D80FC;
+    font-weight: bold;
+    background-color: #c0c0c0;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+.answer{
+    text-align: left;
+    color: #6D80FC;
+    font-weight: bold;
+    background: #000000;
+    font-size: 1.3rem;
+    margin: auto;
+    padding: 15px;
+}
+/*history*/
+
+#table caption{
+    font-size: 1.4rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+td, th{
+    padding: 15px;
+}
+
+th{
+    background-color: #000000;
+    color: #6D80FC;
+}
+/*footer*/
