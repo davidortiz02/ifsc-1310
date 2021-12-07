@@ -9,9 +9,12 @@ body{
     background-image: url(SpaceX-Logo.png);
 }
 
+
+
 header.primary{
     text-align: center;
     background-image: url(assets/img/background.jpg); /*broken, don't know why it's not working*/
+    /* background-image: url(../img/background.jpg); corrrect way it was supposed to be done*/
     background-position: 100px 0;
     background-color: #c0c0c0;
     padding: 5rem 2rem;
