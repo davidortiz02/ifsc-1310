@@ -41,3 +41,20 @@ body nav ul a{
    padding: 15px;
    border-radius: 25px;
 }
+
+#reflection{
+    background: rgb(181, 181, 181, 0.6);
+}
+
+#reflection h2{
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #FF8F54;
+    text-shadow: 2px 2px #000;
+}
+
+#reflection p{
+    font-size: 1.1rem;
+}
